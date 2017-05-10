@@ -15,7 +15,7 @@ namespace CiRent.DAL.Concrete.EF
             Database.SetInitializer<CiRentContext>(new CreateDatabaseIfNotExists<CiRentContext>());
        }
 
-
+         
        IDbSet<Product> Product { get; set; }
        IDbSet<Order> Order { get; set; }
        IDbSet<ParamDictionary> ParamDictionary { get; set; }
