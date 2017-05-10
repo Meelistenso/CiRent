@@ -8,7 +8,7 @@ using CiRent.Entity;
 
 namespace CiRent.DAL.Concrete.EF
 {
-    public class CiRentContext :DbContext,IDisposable
+    public class CiRentContext :DbContext, IDisposable
     {
        public CiRentContext()
             :base("name=CiRentConnectionString") {
