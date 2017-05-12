@@ -11,6 +11,8 @@ namespace CiRent.Entity
     [Table("tUser")]
     public partial class User
     {
+
+        bool text = true;
         User() {
             this.UserInRole = new HashSet<UserInRole>();
         }
