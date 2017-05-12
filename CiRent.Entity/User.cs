@@ -21,5 +21,6 @@ namespace CiRent.Entity
         [Column("cId")]
         public int Id { get; set; }
         public virtual ICollection<UserInRole> UserInRole { get; set; }
+
     }
 }
